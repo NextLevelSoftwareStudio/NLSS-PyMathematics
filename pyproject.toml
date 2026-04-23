@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "NLSS-PyMathematics"
+version = "1.0.0"
+authors = [
+  { name="Next Level Software Studio", email="seu@email.com" },
+]
+classifiers = [
+  "Operating System :: Microsoft :: Windows :: Windows 11",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Intended Audience :: Developers",
+  "Natural Language :: English",
+]
+description = "A Next Level Software Studio project."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[project.urls]
+"Homepage" = ""
