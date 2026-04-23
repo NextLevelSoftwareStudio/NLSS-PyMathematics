@@ -23,4 +23,7 @@ requires-python = ">=3.14"
 dependencies = []
 
 [project.urls]
-"Homepage" = ""
+"Homepage" = "https://github.com/NextLevelSoftwareStudio/NLSS-PyMathematics"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pymathematics"]
